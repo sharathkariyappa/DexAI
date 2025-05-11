@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
         <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
             <div className="text-xl font-bold">Dex-AI</div>
             <div className="flex gap-4">
-                <button className="px-4 py-2 text-sm bg-blue-500 rounded hover:bg-blue-600">About</button>
+                <button className="px-4 py-2 text-sm bg-blue rounded hover:bg-blue">About</button>
                 <ConnectButton />
             </div>
         </nav>
